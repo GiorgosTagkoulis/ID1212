@@ -82,13 +82,4 @@ public class ConvManager implements Serializable {
     public void setAmount(double amount) {
         this.amount = amount;
     }
-
-    
-    
-    
-    
-    
-    
-   
-
 }
