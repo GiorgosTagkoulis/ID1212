@@ -13,10 +13,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import se.kth.id1212.currencyconverter.controller.Fasade;
 
-/**
- *
- * @author koszio
- */
+
 @Named("convManager")
 @ConversationScoped
 public class ConvManager implements Serializable {
