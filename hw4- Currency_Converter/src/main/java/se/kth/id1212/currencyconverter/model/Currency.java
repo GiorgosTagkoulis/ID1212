@@ -14,10 +14,8 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
-/**
- *
- * @author koszio
- */
+
+
 @Entity
 @Table(name = "CURRENCY")
 @NamedQueries({
