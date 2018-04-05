@@ -8,10 +8,7 @@ import java.net.InetSocketAddress;
 import java.util.Scanner;
 import client.net.CommunicationListener;
 
-/**
- *
- * @author koszio
- */
+
 public class InputTranslator implements Runnable{
 
   private static final String PROMPTLINE = "command line > ";
