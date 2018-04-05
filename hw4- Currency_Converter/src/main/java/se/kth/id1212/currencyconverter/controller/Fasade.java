@@ -13,10 +13,7 @@ import javax.ejb.TransactionAttributeType;
 import se.kth.id1212.currencyconverter.integration.CurConvDAO;
 import se.kth.id1212.currencyconverter.model.Currency;
 
-/**
- *
- * @author koszio
- */
+
 @TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)
 @Stateless
 public class Fasade {
