@@ -13,10 +13,6 @@ import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceContext;
 import se.kth.id1212.currencyconverter.model.Currency;
 
-/**
- *
- * @author koszio
- */
 
 @TransactionAttribute(TransactionAttributeType.MANDATORY)
 @Stateless
