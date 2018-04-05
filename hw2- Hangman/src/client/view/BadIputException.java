@@ -5,10 +5,6 @@
  */
 package client.view;
 
-/**
- *
- * @author koszio
- */
 public class BadIputException extends Throwable {
     
     public BadIputException(String message) {
